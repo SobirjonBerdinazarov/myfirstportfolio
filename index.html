@@ -1,13 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Animations icons</title>
+
+  <style>
+    body {
+  margin: 0;
+  padding: 0;
+  background-color: #ccc;
+  perspective: 1000px;
+  height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+ul li { 
+  display: inline-block;
+  list-style: none;
+  margin: 0  40px;
+
+}
+ul li a .fab {
+  font-size: 40px;
+  color: black;
+  line-height: 80px;
+  transition: .5s;
+}  
+
+ul li a {
+  position: relative;
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-color: #ffffff;
+  text-align: center;
+ 
+  transform: rotate(-30deg) skew(25deg);
+  transition: .5s;
+  box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.424);
+
+}
+
+ul li a::before {
+  content: "";
+  transition: .5s;
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  width: 20px;
+  height: 100%;
+  background-color: rgb(175, 173, 173);
+  transform: rotate(0deg) skewY(-45deg);
+}
+
+ul li a::after {
+  content: "";
+  transition: .5s;
+  position: absolute;
+  bottom: -20px;
+  left: -10px;
+  height: 20px;
+  width: 100%;
+  background-color: rgb(175, 173, 173);
+  transform: rotate(0deg) skewX(-45deg); 
+   
+}
+ul li a:hover .fab{
+  color: #fff;
+}
+
+ul li a:hover {
+  transform: rotate(-30deg) skew(25deg) translate(20px, -20px);
+  box-shadow: -80px 80px 50px rgba(0, 0, 0, 0.993);
+}
+
+ul li:hover:nth-child(1) a{
+  background: rgb(36, 36, 214);
+  
+}
+ul li:hover:nth-child(1) a::before {
+  background: rgb(17, 17, 160);
+}
+ul li:hover:nth-child(1) a::after {
+  background: rgb(53, 53, 235);
+}
+
+
+/* twitter{2} */
+
+ul li:hover:nth-child(2) a{
+  background: #1DA1F2;
+  
+}
+ul li:hover:nth-child(2) a::before {
+  background: #2985be;
+}
+ul li:hover:nth-child(2) a::after {
+  background: #38acf5;
+}
+
+
+/* google{3} */
+
+ul li:hover:nth-child(3) a{
+  background: #DD4B39;  
+}
+ul li:hover:nth-child(3) a::before {
+  background: #c3412f;
+}
+ul li:hover:nth-child(3) a::after {
+  background: #eb5d4a;
+}
+
+/* linked in{4} */
+
+ul li:hover:nth-child(4) a{
+  background:  #0e76a8;  
+}
+ul li:hover:nth-child(4) a::before {
+  background:  #196486;
+}
+ul li:hover:nth-child(4) a::after {
+  background:  #1390ca;
+}
+
+
+
+/* instagram{5} */
+
+ul li:hover:nth-child(5) a{
+  background: #8a3ab9;  
+}
+ul li:hover:nth-child(5) a::before {
+  background: #6f2c95;
+}
+ul li:hover:nth-child(5) a::after {
+  background: #a146d6;
+}
+  </style>
 </head>
 <body>
-    <h1>hello2</h1>
+<ul>
+  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>  
+  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+  <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+  <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+</ul>
+  
 </body>
 </html>
