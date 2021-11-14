@@ -1,5 +1,8 @@
 #photos a {
     text-decoration: none;
     list-style: none;
+    
+}
+#photos {
     display: inline-block;
 }
