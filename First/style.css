@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(158, 152, 153);
+}
+.box1 {
+  position: absolute;
+  height: 100px;
+  width: 1200px;
+  top: 260px;
+  left: 90px;
+  background-color: rgb(210, 209, 211);
+}
+.box1 h1 {
+  text-align: center;
+  margin-top: 25px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.box2 {
+  position: absolute;
+  height: 100px;
+  width: 1200px;
+  top: 260px;
+  left: 90px;
+  background-color: rgb(210, 209, 211);
+  transition-duration: 8s;
+  transition-property: all;
+  border-left: 1px solid black;
+}
+.ota {
+  display: inline-block;
+
+}
+
+
+.ota:hover .box2 {
+  position: absolute;
+  height: 100px;
+  width: 1px;
+  top: 260px;
+  left: 1190px;
+  background-color: rgb(210, 209, 211);
+  border-left: 1px solid black;
+  
+
+}

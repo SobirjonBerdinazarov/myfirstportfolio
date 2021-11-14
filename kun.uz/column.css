@@ -1,0 +1,229 @@
+.navbar1 {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 70px;
+  display: flex;
+}
+
+.logo {
+  width: 120px;
+  height: 90%;
+}
+.logo img {
+  margin-top: 6px;
+  width: 100%;
+  height: 100%;
+}
+.menu ul {
+  margin-top: 15px;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+.menu li {
+  margin: 10px 10px;
+  
+}
+.menu ul li a {
+ text-decoration: none;
+ color: black;
+ font-weight: bold;
+}
+.neft {
+  width: 200px;
+  height: 80%;
+  
+  margin-left: 15px;
+  margin-top: 4px;
+}
+.neft img {
+  width: 100%;
+  height: 100%;
+}
+body {
+  
+  font-family: sans-serif;
+}
+
+.til {
+  background-color: rgb(236, 233, 233);
+  width: 95px;
+  color: rgb(11, 11, 66);
+  height: 25px;
+  border-radius: 30px;
+  margin: 20px 20px;
+  border-color: rgb(236, 233, 233);
+}
+
+.search {
+  width: 28px;
+  height: 28px;
+  margin-top: 20px;
+  background-color: rgb(236, 233, 233);
+  border-radius: 50%;
+}
+.search img {
+  padding-left: 3px;
+  padding-top: 3px;
+}
+
+/* navbar2 */
+.navbar2 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  background-color: rgb(238, 238, 238);
+  margin-bottom: 17px;
+}
+.hududlar {
+  background-color: blue;
+  width: 120px;
+  text-align: center;
+  margin-right: 0px;
+  background
+}
+
+.hududlar p {
+  margin-top: 14px;
+  font-size: 20px;
+  color: white;
+}
+.vl {
+  border: 1px solid black;
+  width: 0px;
+  height: 18px;
+  margin-top: 1px;
+}
+.navbar2 ul li {
+  margin-top: 12px;
+  display: flex;
+}
+.navbar2 ul li div {
+  margin-right: 9px;
+  margin-left: 9px;
+}
+.navbar2 ul li a {
+  color: rgb(92, 92, 92);
+  text-decoration: none;
+  
+}
+/* a:hover {
+  background-color: blue;
+  
+} */
+.navbar2 ul {
+  display: flex;
+  margin-left: 0px;
+  font-size: 15px;
+  width: 1320px;
+  height: 20px;
+  padding-left: 5px;
+  list-style: none; 
+}
+
+a {
+  text-decoration: none;
+  color: rgb(13, 13, 80);
+}
+#first {
+  height: 1017px;
+  padding: 0px;
+}
+#second {
+  height: 340px;
+}
+#third {
+  height: 340px;
+  padding: 15px 15px;
+  background-color: rgb(242, 239, 248);
+}
+#fourth {
+  height: 286px;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+#fifth {
+  height: 340px;
+  
+}
+.jpg {
+  
+  width: 100%;
+}
+.betwen {
+  padding: 0px 8px;
+}
+.betwen .jpg {
+  height: 218px;
+}
+.oxirgi .jpg {
+  height: 218px;
+}
+#four {
+  height: 143px;
+  display: flex;
+}
+.alfa {
+  height: 143px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+.betta {
+  height: 143px;
+  padding: 10px 10px;
+}
+.end {
+  height: 50px;
+}
+
+.calendar {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(172, 172, 172);
+  margin-left: 8px;
+}
+.calendar p {  
+  height: 20px;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
+#cal {
+  height: 25px;
+  font-size: 25px;
+}
+
+#third h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.songi {
+  height: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+.right {
+  padding: 10px 15px;
+}
+.kop {
+  height: 50px;
+  width: 85%;
+  background-color: rgb(226, 225, 225);
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  padding-top: 15px;
+  border-left: 2px solid blue;
+  margin-left: 15px;
+}
+.kop a {
+  
+  margin-left: 20px;
+}
