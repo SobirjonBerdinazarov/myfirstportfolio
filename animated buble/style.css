@@ -1,0 +1,249 @@
+.box1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  animation-name: first;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+ 
+}
+.box2 {
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  animation-name: second;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  
+}
+
+@keyframes first {
+  from {
+    background-color: aqua;
+  }
+  25% {
+    left: 600px;
+    top: 20px;
+    background-color: chartreuse;
+  }
+  50% {
+    left: 600px;
+    top: 500px;
+    background-color: blue;
+  }
+  75% {
+    left: 20px;
+    top: 500px;
+    background-color: brown;
+  }
+  to {
+    top: 20px;
+    left: 20px;
+    background-color: aqua;
+  }
+}
+
+@keyframes second {
+  from {
+    background-color: aqua;
+  }
+  25% {
+    left: 600px;
+    top: 20px;
+    background-color: chartreuse;
+  }
+  50% {
+    left: 600px;
+    top: 500px;
+    background-color: blue;
+  }
+  75% {
+    left: 20px;
+    top: 500px;
+    background-color: brown;
+  }
+  to {
+    top: 20px;
+    left: 20px;
+    background-color: aqua;
+  }
+}
+
+
+.box3 {
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  animation-name: third;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+
+@keyframes third {
+  from {
+    background-color: aqua;
+  }
+  25% {
+    left: 600px;
+    top: 20px;
+    background-color: chartreuse;
+  }
+  50% {
+    left: 600px;
+    top: 500px;
+    background-color: blue;
+  }
+  75% {
+    left: 20px;
+    top: 500px;
+    background-color: brown;
+  }
+  to {
+    top: 20px;
+    left: 20px;
+    background-color: aqua;
+  }
+}
+
+* {
+  text-align: center;
+  
+}
+
+.box4 {
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  animation-name: four;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+ 
+}
+
+@keyframes four {
+  from {
+    background-color: aqua;
+  }
+  25% {
+    left: 600px;
+    top: 20px;
+    background-color: chartreuse;
+  }
+  50% {
+    left: 600px;
+    top: 500px;
+    background-color: blue;
+  }
+  75% {
+    left: 20px;
+    top: 500px;
+    background-color: brown;
+  }
+  to {
+    top: 20px;
+    left: 20px;
+    background-color: aqua;
+  }
+}
+
+
+.box5 {
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  animation-name: fifth;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
+  
+}
+
+@keyframes fifth {
+  from {
+    background-color: aqua;
+  }
+  25% {
+    left: 600px;
+    top: 20px;
+    background-color: chartreuse;
+  }
+  50% {
+    left: 600px;
+    top: 500px;
+    background-color: blue;
+  }
+  75% {
+    left: 20px;
+    top: 500px;
+    background-color: brown;
+  }
+  to {
+    top: 20px;
+    left: 20px;
+    background-color: aqua;
+  }
+}
+
+.box6 {
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  animation-name: sixth;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+  
+}
+
+@keyframes sixth {
+  from {
+    background-color: aqua;
+  }
+  25% {
+    left: 600px;
+    top: 20px;
+    background-color: chartreuse;
+  }
+  50% {
+    left: 600px;
+    top: 500px;
+    background-color: blue;
+  }
+  75% {
+    left: 20px;
+    top: 500px;
+    background-color: brown;
+  }
+  to {
+    top: 20px;
+    left: 20px;
+    background-color: aqua;
+  }
+}
