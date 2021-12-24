@@ -18,7 +18,7 @@ html{
   color: #f48fb1;
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 30%;
   opacity: 0;
   animation: vem_feliz 2s ease-in-out 7s forwards;
 }
