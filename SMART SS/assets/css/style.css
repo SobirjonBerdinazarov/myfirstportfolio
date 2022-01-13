@@ -1,16 +1,8 @@
-/**
-* Template Name: Squadfree - v4.7.0
-* Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  
 }
 
 a {
@@ -160,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: rgba(100, 100, 102, 0.438);
+  background: #32a5f175;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.411);
   transition: 0.3s;
 }
@@ -317,12 +309,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 64px;
+  padding: 25px 25px 25px 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 62px;
   font-weight: 700;
   line-height: 56px;
-  text-transform: uppercase;
+  border: 8px solid white;
+  border-radius: 20px;
   color: #fff;
-  text-shadow: -1px 0 2px #2f4d5a;
+  text-shadow: -3px  2px #2f4d5a;
+  border-color: #302df3;
 }
 #hero h2 {
   color: #fff;
@@ -1208,3 +1204,73 @@ section {
     margin: -20px 0 30px 0;
   }
 }
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+.slider {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  width: 960px;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  box-shadow: 0 10px 20px -5px;
+}
+
+.slider::before, .slider::after{
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background: linear-gradient(to right, white 0% rgba(255,255,255,0) 100%);
+  z-index: 2;
+}
+.slider::before {
+  top: 0;
+  left: 0;
+}
+.slider::after{
+  top: 0;
+  right: 0;
+  transform: rotateZ(180deg);
+}
+
+.slider .slider-track{
+  display: flex;
+  width: calc(250px * 6);
+  animation: scroll 25s infinite linear;
+}
+
+.slider .slide img {
+  width: 250px;
+  height: 100px;
+}
+
+
+@keyframes scroll {
+  0%{
+      transform: translateX(0%);
+  }
+
+  100%{
+      transform: translateX(calc(-250px * 6));
+  }
+  
+}
+
+
